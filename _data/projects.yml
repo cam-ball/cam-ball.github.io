@@ -1,0 +1,26 @@
+# TODO Update these when you know 🤡
+- title: Soft Diner Syntax
+  links:
+    - icon: github
+      href: https://github.com/laurenball/soft-diner
+      alt: source on Github
+    - icon: link
+      href: https://atom.io/themes/soft-diner-syntax
+      alt: atom.io theme repository page
+  description: Atom dark syntax theme with a hazy neon vibe
+- title: Portfolio
+  links:
+    - icon: github
+      href: https://github.com/laurenball/laurenball.github.io
+      alt: source on Github
+  description: Jekyll & UIKit based personal portfolio site and blog.
+    You may have been there before... it's more likely than you think!
+- title: 5e Character Generator
+  links:
+    - icon: github
+      href: https://github.com/laurenball/5e-character-generator
+      alt: source on Github
+    - icon: link
+      href: https://laurenball.dev/5e-character-generator/
+      alt: live site
+  description: Random character generation utilizing <a href="https://github.com/5e-bits/5e-srd-api" class="uk-link-muted">5e-srd-api</a>

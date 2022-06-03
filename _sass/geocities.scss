@@ -1,0 +1,63 @@
+// geocities mode toggle button
+#geocities-toggle {
+
+  // hides default button background and makes clickable
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  img {
+    max-height: 40px;
+    max-width: 40px;
+  }
+}
+
+// added to #page-top on toggle, which UIKit hates (for a good reason)
+.geocities-mode {
+  // text color
+  .uk-flex, h3, a {
+    color: aqua !important;
+  }
+  .uk-card-title, #header-main, .uk-flex, .uk-heading {
+    color: LawnGreen;
+  }
+
+  // starry background image wow
+  div, section, nav, footer, .uk-navbar {
+    background-image: url('../img/geocities/blackcanyonbkgtile.gif');
+    color: LawnGreen;
+  }
+  #header-main, #projects-main {
+    background-image: url('../img/geocities/blackcanyonbkgtile.gif');
+    background-repeat: repeat;
+    background-size: initial;
+  }
+
+  // borders with neat three dee effect
+  .uk-container {
+    border-style: groove;
+    border-width: 10px;
+    color: MediumPurple;
+    padding: 50px;
+  }
+
+  .uk-card {
+    border-style: ridge;
+    border-width: 5px;
+    border-color: orange;
+  }
+  .uk-card-footer {
+    border: none;
+  }
+
+  // hide profile image
+  .geocities-hidden {
+    display: none;
+  }
+
+  .geocities-img {
+    display: block;
+  }
+}

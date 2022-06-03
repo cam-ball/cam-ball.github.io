@@ -1,0 +1,30 @@
+@import 'geocities';
+
+// sticky footer
+html, body {
+    height:100%;
+}
+#page-wrapper {
+    min-height: calc(100% - 20px);
+    margin-bottom: -60px;
+}
+#page-wrapper:after {
+    content: "";
+    display: block;
+}
+
+#header-main {
+  background-image: url('../img/discovery_park.png');
+}
+
+#projects-main {
+  background-image: url('../img/trees.png');
+}
+
+.geocities-img {
+  display: none;
+}
+
+.embeded_image {
+  padding: 20px;
+}

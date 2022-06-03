@@ -1,0 +1,5 @@
+<p class="uk-text-meta uk-margin-remove-top">
+  Posted {{ include.date | date: '%B %d, %Y' }} |
+  {% assign read_time = include.content | number_of_words | divided_by: 180 %}
+  ⏲  {{ read_time }} minute read
+</p>
