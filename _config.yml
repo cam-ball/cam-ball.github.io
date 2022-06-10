@@ -6,3 +6,6 @@ meta_author: Cameron Ball
 
 plugins:
   - jekyll-feed
+
+sass:
+  sass_dir: _sass

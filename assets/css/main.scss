@@ -1,0 +1,78 @@
+---
+---
+@import 'external/jetbrains-mono';
+@import 'external/ibm-plex-sans';
+
+:root {
+    --black: #363537;
+    --blue: #39a2ae;
+    --purple: #9e788f;
+    --red: #e15554;
+    --white: #e2d4b7;
+    --font-size: 1rem;
+    --mono: "JetBrains Mono";
+    --sans: "IBMPlex Sans";
+}
+
+/* border box model: https://css-tricks.com/box-sizing/ */
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--sans);
+  background-color: var(--black);
+  color: var(--white);
+  font-size: var(--font-size);
+}
+
+.content {
+  border: 1px var(--purple) solid;
+  padding: 4rem 1rem 4rem 1rem;
+  max-width: 1200px;
+  min-height: 50vh;
+
+  padding: 3rem;
+  margin: 3rem;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: var(--mono);
+  font-size: 3rem;
+  color: var(--red);
+  margin: 0;
+}
+
+h2 {
+  font-style: italic;
+}
+
+.quick-facts {
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--blue);
+}
+a:hover {
+  color: var(--red);
+  text-decoration: none;
+}
