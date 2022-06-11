@@ -1,6 +1,5 @@
 ---
 layout: section
 facts: basic
+title: Quick Facts
 ---
-
-### Quick Facts
