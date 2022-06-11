@@ -58,11 +58,25 @@ body {
     font-size: 1.5rem;
     min-width: 4rem;
     text-align: center;
+    border: 2px var(--purple) solid;
 
     background-color: var(--purple);
 
+    transition: all .15s ease-in;
+
     a {
       color: var(--white);
+      transition: all .15s ease-in;
+    }
+
+    &:hover {
+      transform: translateY(10%);
+      background: var(--black);
+      border: 2px var(--blue) solid;
+
+      a {
+        color: var(--blue);
+      }
     }
   }
 }
