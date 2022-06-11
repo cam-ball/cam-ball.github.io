@@ -1,12 +1,11 @@
 basic:
-  - content: Boston, MA
+  - content: Denizen of Boston, MA
   - content: 7 years of professional experience
-  - content: Git wizard
+  - content: "Solid with the 3 R's:"
     nested:
-      - content: Verified By
-        nested:
-          - content: <a href="https://github.com/brooksbecton">Brooks Becton</a>
-          - content: <a href="https://github.com/RickyHempel">Ricky Hempel</a>
+      - content: Ruby
+      - content: Rails
+      - content: React
   - content: Afraid of heights
 projects:
   - content: Generated a bunch of <a href="https://github.com/laurenball/5e-character-generator">D&D character ideas</a>.
