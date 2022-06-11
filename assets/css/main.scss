@@ -1,27 +1,28 @@
 ---
 ---
-@import 'external/jetbrains-mono';
-@import 'external/ibm-plex-sans';
+
+@import "external/jetbrains-mono";
+@import "external/ibm-plex-sans";
 
 :root {
-    --black: #363537;
-    --blue: #39a2ae;
-    --purple: #9e788f;
-    --red: #e15554;
-    --white: #e2d4b7;
-    --font-size: 1rem;
-    --mono: "JetBrains Mono";
-    --sans: "IBMPlex Sans";
+  --black: #363537;
+  --blue: #39a2ae;
+  --purple: #9e788f;
+  --red: #e15554;
+  --white: #e2d4b7;
+  --font-size: 1rem;
+  --mono: "JetBrains Mono";
+  --sans: "IBMPlex Sans";
 }
 
 /* border box model: https://css-tricks.com/box-sizing/ */
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
