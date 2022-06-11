@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign list = site.data.quick_facts[page.facts] %}
-<section>
+<section class="info-card">
   <div class="wrapper">
     <div class="content">
       <div class="header">
@@ -11,29 +11,8 @@ layout: default
         <h2>Senior <span class="accent">Ruby</span> Engineer</h2>
       </div>
       <h3>{{ page.title }}</h3>
-      {{ content }} {% include nestable_list.html list=list top_level=true %}
+      {% include nestable_list.html list=list top_level=true %}
     </div>
-    <ul class="nav">
-      <li>
-        <a href="/" aria-label="Home">
-          <i class="fa-solid fa-house" aria-hidden="true" title="Home"></i>
-        </a>
-      </li>
-      <li>
-        <a href="/projects" aria-label="Projects">
-          <i class="fa-solid fa-laptop-code" aria-hidden="true" title="Projects"></i>
-        </a>
-      </li>
-      <li>
-        <a href="/hobbies" aria-label="Hobbies">
-          <i class="fa-solid fa-dice-d20" aria-hidden="true" title="Hobbies"></i>
-        </a>
-      </li>
-      <li>
-        <a href="/contact" aria-label="Contact">
-          <i class="fa-solid fa-comments" aria-hidden="true" title="Contact"></i>
-        </a>
-      </li>
-    </ul>
+    {% include nav.html %}
   </div>
 </section>
