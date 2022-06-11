@@ -1,5 +1,5 @@
 ---
 layout: section
-facts: interests
+facts: hobbies
 title: $ ls hobbies/
 ---
