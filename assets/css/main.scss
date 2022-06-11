@@ -52,7 +52,6 @@ body {
 
   li {
     border-top: none;
-    padding: 1rem;
     font-size: 1.5rem;
     min-width: 4rem;
     text-align: center;
@@ -61,8 +60,13 @@ body {
     background-color: var(--purple);
 
     transition: all .15s ease-in;
+    display: block;
 
     a {
+      // extends the anchor to the edges of the `li`
+      display: block;
+      padding: 1rem;
+
       color: var(--white);
       transition: all .15s ease-in;
     }
@@ -70,10 +74,10 @@ body {
     &:hover {
       transform: translateY(10%);
       background: var(--black);
-      border: 2px var(--blue) solid;
+      border: 2px var(--red) solid;
 
       a {
-        color: var(--blue);
+        color: var(--red);
       }
     }
   }
