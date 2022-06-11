@@ -1,0 +1,70 @@
+// Aggregates all text transformation styles for easy tweaking
+
+body {
+  font-size: 1rem;
+  color: $white;
+  font-family: $sans;
+}
+
+h1 {
+  font-family: $mono;
+  font-size: 2.5rem;
+  color: $red;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-family: $mono;
+}
+
+a {
+  color: $blue;
+  font-family: $mono;
+
+  &:hover {
+    color: $red;
+  }
+}
+
+.accent {
+  color: $red;
+  font-family: $mono;
+  font-weight: 200;
+}
+
+.nav {
+  li {
+    font-size: 1.25rem;
+    text-align: center;
+
+    a {
+      color: $white;
+    }
+
+    &:hover {
+      a {
+        color: $red;
+      }
+    }
+  }
+}
+
+@media(min-width: $desktop-breakpoint) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2, h3, .nav li a {
+    font-size: 1.5rem;
+  }
+}
