@@ -4,8 +4,8 @@
 @import "external/jetbrains-mono";
 @import "external/ibm-plex-sans";
 
-@import 'variables';
-@import 'typography';
+@import "variables";
+@import "typography";
 
 /*************/
 /* Overrides */
@@ -20,7 +20,9 @@ html {
 *::after {
   box-sizing: inherit;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 
@@ -86,13 +88,13 @@ ul {
     display: block;
     min-width: 4rem;
 
-    transition: all .15s ease-in;
+    transition: all 0.15s ease-in;
 
     a {
       // extends the anchor to the edges of the `li`
       display: block;
-      padding: .5rem;
-      transition: all .15s ease-in;
+      padding: 0.5rem;
+      transition: all 0.15s ease-in;
     }
 
     &:hover {
@@ -103,7 +105,7 @@ ul {
   }
 }
 
-@media(min-width: 800px) {
+@media (min-width: $desktop-breakpoint) {
   .content {
     width: 60vh;
     min-width: 650px;

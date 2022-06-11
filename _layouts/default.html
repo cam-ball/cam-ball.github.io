@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>
-      {% if page.title %}{{ page.title }} — {% endif %}Cameron Ball
-    </title>
+    <title>{% if page.title %}{{ page.title }} — {% endif %}Cameron Ball</title>
     <meta name="description" content="{{ site.description }}" />
     <meta name="author" content="{{ site.meta_author }}" />
     <link
@@ -16,11 +14,12 @@
     />
 
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
-    <script src="https://kit.fontawesome.com/1a7a9b8f8c.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/1a7a9b8f8c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <main>
-      {{ content }}
-    </main>
+    <main>{{ content }}</main>
   </body>
 </html>

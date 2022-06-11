@@ -55,7 +55,7 @@ a {
   }
 }
 
-@media(min-width: $desktop-breakpoint) {
+@media (min-width: $desktop-breakpoint) {
   body {
     font-size: 1.2rem;
   }
@@ -64,7 +64,9 @@ a {
     font-size: 3.5rem;
   }
 
-  h2, h3, .nav li a {
+  h2,
+  h3,
+  .nav li a {
     font-size: 1.5rem;
   }
 }
