@@ -1,0 +1,10 @@
+basic:
+  - content: Boston, MA
+  - content: 7 years of professional experience
+  - content: Git wizard
+    nested:
+      - content: Verified By
+        nested:
+          - content: <a href="https://github.com/brooksbecton">Brooks Becton</a>
+          - content: <a href="https://github.com/RickyHempel">Ricky Hempel</a>
+  - content: Afraid of heights

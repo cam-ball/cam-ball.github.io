@@ -1,0 +1,13 @@
+{% if include.top_level %}
+<ul class="quick-facts">
+{% else %}
+<ul>
+{% endif %}
+  {% for item in include.list %}
+    <li>{{ item.content }}
+      {% if item.nested %}
+        {% include nestable_list.html list=item.nested %}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
