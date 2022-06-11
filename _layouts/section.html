@@ -4,10 +4,34 @@ layout: default
 
 {% assign list = site.data.quick_facts[page.facts] %}
 <section>
-  <div class="content">
-    <h1>Cameron Ball</h1>
-    <h2>Senior Ruby Engineer</h2>
-    <h3>{{ page.title }}</h3>
-    {{ content }} {% include nestable_list.html list=list top_level=true %}
+  <div class="wrapper">
+    <div class="content">
+      <h1>Cameron Ball</h1>
+      <h2>Senior Ruby Engineer</h2>
+      <h3>{{ page.title }}</h3>
+      {{ content }} {% include nestable_list.html list=list top_level=true %}
+    </div>
+    <ul class="nav">
+      <li>
+        <a href="/" aria-label="Home">
+          <i class="fa-solid fa-house" aria-hidden="true" title="Home"></i>
+        </a>
+      </li>
+      <li>
+        <a href="/projects" aria-label="Projects">
+          <i class="fa-solid fa-laptop-code" aria-hidden="true" title="Projects"></i>
+        </a>
+      </li>
+      <li>
+        <a href="/interests" aria-label="Interests">
+          <i class="fa-solid fa-dice-d20" aria-hidden="true" title="Interests"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://laurenball.dev/resume" aria-label="Résumé">
+          <i class="fa-solid fa-file" aria-hidden="true" title="Résumé"></i>
+        </a>
+      </li>
+    </ul>
   </div>
 </section>
