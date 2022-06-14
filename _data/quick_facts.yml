@@ -8,7 +8,7 @@ basic:
       - content: React
   - content: Afraid of heights
 projects:
-  - content: Generated a bunch of <a href="https://github.com/laurenball/5e-character-generator">D&D character ideas</a>.
+  - content: Generated a bunch of <a href="https://laurenball.dev/5e-character-generator/">D&D character ideas</a>.
   - content: Unleashed a viciously bright <a href="https://github.com/laurenball/soft-diner">Atom theme</a> on the world (RIP Atom).
   - content: Gave some nice grandmas some <a href="https://github.com/laurenball/Fresh-Air">fresh air</a>.
   - content: Made a <a href="https://github.com/laurenball/camball.github.io">website</a>, at least once.
