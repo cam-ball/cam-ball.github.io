@@ -1,0 +1,20 @@
+<article class="blog-column">
+  <div class="wrapper">
+    <div class="post-metadata">
+      <span> {{ include.date | date: "%m/%d/%y" }} </span>
+      <span>
+        <i class="fa-regular fa-clock"></i> {{ include.read_time }} minute read
+      </span>
+    </div>
+    <div class="content">
+      <div class="header">
+        {% if include.url %}
+        <a href="{{include.url}}"><h2>{{ include.title }}</h2></a>
+        {% else %}
+        <h2>{{ include.title }}</h2>
+        {% endif %}
+      </div>
+      {{ include.content }}
+    </div>
+  </div>
+</article>

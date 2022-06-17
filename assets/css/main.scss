@@ -55,9 +55,9 @@ ul {
   position: absolute;
   right: 5%;
   padding: 0.5rem;
+  top: 0;
 
   i {
-    // margin-top: 0.15rem;
     vertical-align: middle;
     font-size: 1.5rem;
     color: var($--theme-text);
@@ -154,7 +154,7 @@ ul {
     background-color: var($--theme-purple);
 
     display: block;
-    min-width: 4rem;
+    min-width: 3rem;
 
     transition: all 0.15s ease-in;
 
@@ -173,7 +173,7 @@ ul {
   }
 }
 
-@media (min-width: $desktop-breakpoint) {
+@media (min-width: $lg-breakpoint) {
   .content {
     width: 60vh;
     min-width: 650px;
@@ -183,5 +183,26 @@ ul {
   .nav li a {
     padding: 1.5rem;
     min-width: 5rem;
+  }
+}
+
+/*************/
+/*  Header   */
+/*************/
+
+header {
+  margin: 0.5rem;
+}
+
+/*************/
+/*   Misc    */
+/*************/
+
+.embedded-image {
+  text-align: center;
+  font-size: 0.8rem;
+
+  img {
+    max-width: 100%;
   }
 }

@@ -8,13 +8,14 @@ Well, I'm still doing it.
 
 After my [previous post]({% post_url 2021-06-20-obsidian %}), the aforementioned D&D campaign began
 in earnest. With Obsidian as a DM screen, the game went swimmingly and I was able to focus on
-learning how to run a game without also having to juggle window management.  Since then, I've
+learning how to run a game without also having to juggle window management. Since then, I've
 transitioned more of my general note keeping to Obsidian, and some recent additions to my
 configuration have motivated me to give a brief update.
 
 <!-- excerpt-end -->
 
 #### Mobile App
+
 After being in closed beta for quite some time, the official Obsidian mobile app was released for
 Android and iOS in July. It's surprisingly similar to the desktop application, with the majority of
 differences that I've noticed being a QoL updates to the interface to make basic markdown syntax a
@@ -29,6 +30,7 @@ exclusively, rather than a mish-mash of half-complete thoughts that are spread a
 Google accounts.
 
 #### Multi-Device Syncing
+
 Transitioning all of my devices to use the exact same note-taking interface has been nice in the
 sense that having a single, consistent interface is something that is really useful for obvious
 reasons. That said, having that very-nice-and-consistent-interface present with a discrepancy
@@ -70,6 +72,8 @@ One script, `sync_obsidian` just pulls the my obsidian repo from GitHub, and the
 changes with a commit message that includes the time stamp of the sync. This script is run via cron
 every 30 minutes on my personal computer, and once every hour on my work computer.
 
+{% include embedded_image.html url="/assets/images/posts/2021-12-01-more-obsidian/gitlog.png" description="Screenshot of GitHub timestamped commits" %}
+
 The other, `sync_and_launch_obsidian` simply calls `sync_obsidian` and then launches the
 application. I was already having to use a custom launcher for the app because the Linux
 distribution of Obsidian is an AppImage, so the launcher script just replaced the AppImage
@@ -93,6 +97,7 @@ said, what is there now is perfectly functional, and I made sure to sit on it fo
 talking about it here.
 
 #### Resources
+
 1. [How I Put My Mind In Version Control](https://medium.com/analytics-vidhya/how-i-put-my-mind-under-version-control-24caea37b8a5)
 2. [Obsidian Git plugin](https://github.com/denolehov/obsidian-git) (I don't use this, but it's
    probably more straightforward than what I did do :sweat_smile:)

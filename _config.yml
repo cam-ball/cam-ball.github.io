@@ -4,6 +4,13 @@ description: Portfolio/Blog
 url: https://camballsoup.dev
 meta_author: Cameron Ball
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
 plugins:
   - jekyll-feed
 

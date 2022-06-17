@@ -2,15 +2,10 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-  <section class="blollumn">
-    <div class="wrapper">
-      <div class="content">
-        <div class="header">
-          <h2>{{ post.title }}</h2>
-        </div>
-        {{ post.excerpt }}
-      </div>
-    </div>
-  </section>
-{% endfor %}
+<header>
+  <h3><a href="/">⇦ Cameron Ball</a></h3>
+</header>
+{% for post in site.posts %} {% assign read_time = post.content |
+number_of_words | divided_by: 180 %} {% include postcard.html
+content=post.excerpt title=post.title date=post.date url=post.url
+read_time=read_time %} {% endfor %}
