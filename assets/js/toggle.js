@@ -1,9 +1,16 @@
 document.addEventListener('DOMContentLoaded', (event) => {
   const selector = document.querySelector('.toggler input[type="checkbox"]');
-  const savedTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+  let savedTheme;
+  if (localStorage.getItem('theme')) {
+    savedTheme = localStorage.getItem('theme');
+  } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+    savedTheme = 'light'
+  } else {
+    savedtheme = 'dark'
+  }
 
   if (savedTheme) {
-      document.documentElement.setAttribute('class', savedTheme);
+      document.documentElement.setAttribute('data-theme', savedTheme);
 
       if (savedTheme === 'light') {
           selector.checked = true;
@@ -16,7 +23,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       newTheme = 'light';
     }
 
-    document.documentElement.setAttribute('class', newTheme);
+    document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
   }
 

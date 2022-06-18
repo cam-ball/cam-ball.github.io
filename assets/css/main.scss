@@ -7,10 +7,10 @@
 @import "themes";
 @import "mixins";
 
-:root.dark {
+:root{
     @include spread-map($theme-map-dark);
 }
-:root.light {
+[data-theme="light"] {
     @include spread-map($theme-map-light);
 }
 
