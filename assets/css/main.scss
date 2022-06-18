@@ -7,11 +7,11 @@
 @import "themes";
 @import "mixins";
 
-:root{
-    @include spread-map($theme-map-dark);
+:root {
+  @include spread-map($theme-map-dark);
 }
 [data-theme="light"] {
-    @include spread-map($theme-map-light);
+  @include spread-map($theme-map-light);
 }
 
 @import "typography";
@@ -46,7 +46,6 @@ ul {
   margin-bottom: 0;
 }
 
-
 /**************/
 /*  Themeing  */
 /**************/
@@ -54,7 +53,7 @@ ul {
 .toggler {
   position: absolute;
   right: 5%;
-  padding: .5rem;
+  padding: 0.5rem;
 
   i {
     // margin-top: 0.15rem;
@@ -63,7 +62,7 @@ ul {
     color: var($--theme-text);
   }
 
-  input[type=checkbox]{
+  input[type="checkbox"] {
     display: none;
   }
 
@@ -79,7 +78,7 @@ ul {
   }
 
   label:after {
-    content: '';
+    content: "";
     position: absolute;
     top: 2px;
     left: 2px;
