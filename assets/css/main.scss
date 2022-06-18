@@ -3,8 +3,17 @@
 
 @import "external/jetbrains-mono";
 @import "external/ibm-plex-sans";
-
 @import "variables";
+@import "themes";
+@import "mixins";
+
+:root.dark {
+    @include spread-map($theme-map-dark);
+}
+:root.light {
+    @include spread-map($theme-map-light);
+}
+
 @import "typography";
 
 /*************/
@@ -29,7 +38,7 @@ h3 {
 body {
   padding: 0;
   margin: 0;
-  background-color: $black;
+  background-color: var($--theme-background);
 }
 
 ul {
@@ -99,7 +108,7 @@ ul {
 
     &:hover {
       transform: translateY(10%);
-      background: $black;
+      background: var($--theme-background);
       border: 2px $red solid;
     }
   }

@@ -2,7 +2,7 @@
 
 body {
   font-size: 1rem;
-  color: $white;
+  color: var($--theme-text);
   font-family: $sans;
 }
 

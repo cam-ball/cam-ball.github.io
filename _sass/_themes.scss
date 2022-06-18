@@ -1,0 +1,16 @@
+@import "variables";
+
+$--theme-text: --theme-text;
+$--theme-background: --theme-background;
+
+// Default theme
+$theme-map-light: (
+    $--theme-text: $black,
+    $--theme-background: $white,
+);
+
+// Override the default dark theme
+$theme-map-dark: (
+    $--theme-text: $white,
+    $--theme-background: $black,
+);
