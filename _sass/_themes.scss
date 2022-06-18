@@ -2,18 +2,18 @@
 
 // Default theme
 $theme-map-dark: (
-    $--theme-text: $white,
-    $--theme-background: $black,
-    $--theme-red: #e15554,
-    $--theme-blue: #39aea9,
-    $--theme-purple: #9e788f,
+  $--theme-text: $white,
+  $--theme-background: $black,
+  $--theme-red: #e15554,
+  $--theme-blue: #39aea9,
+  $--theme-purple: #9e788f,
 );
 
 // Override the default dark theme
 $theme-map-light: (
-    $--theme-text: $black,
-    $--theme-background: $white,
-    $--theme-red: #c53837,
-    $--theme-blue: #0e5858,
-    $--theme-purple: #5a334b,
+  $--theme-text: $black,
+  $--theme-background: $white,
+  $--theme-red: #c53837,
+  $--theme-blue: #0e5858,
+  $--theme-purple: #5a334b,
 );
