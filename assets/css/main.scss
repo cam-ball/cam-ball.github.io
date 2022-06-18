@@ -46,6 +46,21 @@ ul {
   margin-bottom: 0;
 }
 
+
+/**************/
+/*  Themeing  */
+/**************/
+
+.toggler {
+  position: absolute;
+  right: 5%;
+  padding: .5rem;
+  border: 2px solid $black;
+  border-radius: 0 0 10px 10px;
+  background-color: $purple;
+  color: $black;
+}
+
 /**************/
 /*  Main Card */
 /**************/
