@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
   const selector = document.querySelector('.toggler input[type="checkbox"]');
+
   let savedTheme;
   if (localStorage.getItem('theme')) {
     savedTheme = localStorage.getItem('theme');
@@ -28,4 +29,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
   }
 
   selector.addEventListener('change', switchTheme);
+
+  const label = document.querySelector('label');
+  label.addEventListener('keydown', event => {
+    if (event.key === 'Enter'){
+      selector.checked = !selector.checked
+      selector.dispatchEvent(new Event('change'));
+    }
+  });
 })
