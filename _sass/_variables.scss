@@ -1,9 +1,13 @@
 // Common style values
 $black: #363537;
-$blue: #39aea9;
-$purple: #9e788f;
-$red: #e15554;
 $white: #e2d4b7;
 $mono: "JetBrains Mono";
 $sans: "IBMPlex Sans";
 $desktop-breakpoint: 800px;
+
+$--theme-text: --theme-text;
+$--theme-background: --theme-background;
+$--theme-red: --theme-red;
+$--theme-blue: --theme-blue;
+$--theme-purple: --theme-purple;
+

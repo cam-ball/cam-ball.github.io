@@ -9,7 +9,7 @@ body {
 h1 {
   font-family: $mono;
   font-size: 2.5rem;
-  color: $red;
+  color: var($--theme-red);
 }
 
 h2 {
@@ -24,16 +24,16 @@ h3 {
 }
 
 a {
-  color: $blue;
+  color: var($--theme-blue);
   font-family: $mono;
 
   &:hover {
-    color: $red;
+    color: var($--theme-red);
   }
 }
 
 .accent {
-  color: $red;
+  color: var($--theme-red);
   font-family: $mono;
   font-weight: 200;
 }
@@ -49,7 +49,7 @@ a {
 
     &:hover {
       a {
-        color: $red;
+        color: var($--theme-red);
       }
     }
   }

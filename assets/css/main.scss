@@ -124,7 +124,7 @@ ul {
 }
 
 .content {
-  border: 7px $purple inset;
+  border: 7px var($--theme-purple) inset;
   padding: 3rem;
 }
 
@@ -135,7 +135,7 @@ ul {
 .header {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px $purple solid;
+  border-bottom: 1px var($--theme-purple) solid;
 }
 
 /*************/
@@ -149,9 +149,9 @@ ul {
 
   li {
     border-top: none;
-    border: 2px $purple solid;
+    border: 2px var($--theme-purple) solid;
     list-style: none;
-    background-color: $purple;
+    background-color: var($--theme-purple);
 
     display: block;
     min-width: 4rem;
@@ -168,7 +168,7 @@ ul {
     &:hover {
       transform: translateY(10%);
       background: var($--theme-background);
-      border: 2px $red solid;
+      border: 2px var($--theme-red) solid;
     }
   }
 }
