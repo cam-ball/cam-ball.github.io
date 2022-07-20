@@ -29,10 +29,11 @@
   }
 }
 
-@media (min-width: $lg-breakpoint) {
+@media (min-width: $md-breakpoint) {
   .blog-column {
     display: flex;
     flex-direction: column;
+    align-items: end;
 
     .wrapper {
       position: relative;
@@ -49,10 +50,22 @@
           padding: 0rem 1rem;
         }
       }
+
       .content {
-        min-width: auto;
-        min-height: auto;
+        min-width: 65vw;
+        max-width: 65vw;
       }
+    }
+  }
+}
+
+@media (min-width: $lg-breakpoint) {
+  .blog-column {
+    align-items: center;
+
+    .content {
+      min-width: 50vw;
+      max-width: 65vw;
     }
   }
 }
