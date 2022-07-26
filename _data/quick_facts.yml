@@ -8,11 +8,10 @@ basic:
       - content: React
   - content: Afraid of heights
 projects:
-  - content: Generated a bunch of <a href="https://laurenball.dev/5e-character-generator/">D&D character ideas</a>.
-  - content: Unleashed a viciously bright <a href="https://github.com/laurenball/soft-diner">Atom theme</a> on the world (RIP Atom).
-  - content: Gave some nice grandmas some <a href="https://github.com/laurenball/Fresh-Air">fresh air</a>.
-  - content: Made a <a href="https://github.com/laurenball/camball.github.io">website</a>, at least once.
-  - content: Maybe <a href="https://github.com/laurenball/laurenball.github.io">twice</a>.
+  - content: Generated a bunch of <a href="https://camballsoup.dev/5e-character-generator/">D&D character ideas</a>.
+  - content: Unleashed a viciously bright <a href="https://github.com/cam-ball/soft-diner">Atom theme</a> on the world (RIP Atom).
+  - content: Gave some nice grandmas some <a href="https://github.com/cam-ball/Fresh-Air">fresh air</a>.
+  - content: Made a <a href="https://github.com/cam-ball/cam-ball.github.io">website</a>, at least once.
 hobbies:
   - content: Tabletop RPGs, as a player and a GM
   - content: Cross stitching
@@ -22,5 +21,5 @@ hobbies:
 contact:
   - content: Shoot me an <a href="mailto:im.cameron@proton.me">Email</a>
   - content: Connect with me on <a href="https://www.linkedin.com/in/lauren-ball/">LinkedIn</a>
-  - content: Follow me on <a href="https://github.com/laurenball">GitHub</a>
+  - content: Follow me on <a href="https://github.com/cam-ball">GitHub</a>
   - content: Send a carrier pigeon (I promise I'll take very good care of it)
