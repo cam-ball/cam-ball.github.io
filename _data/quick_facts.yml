@@ -1,6 +1,6 @@
 basic:
   - content: Denizen of Boston, MA
-  - content: 7 years of professional experience
+  - content: 7 years of professional experience (<a href="https://camball.me/resume">Resume</a>)
   - content: "Solid with the 3 R's:"
     nested:
       - content: Ruby
