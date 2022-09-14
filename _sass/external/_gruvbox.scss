@@ -91,6 +91,7 @@
   overflow-x: scroll;
   margin-right: 0;
   margin-left: 0;
+  font-family: $mono;
 
   pre {
     margin: 0;
@@ -100,4 +101,5 @@
 // inline single-fence style should also get gruvbox background
 .highlighter-rouge {
   background: #282828;
+  font-family: $mono;
 }
