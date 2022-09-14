@@ -1,12 +1,14 @@
 {% if include.top_level %}
 <ul class="primary-list">
-  {% else %}
-  <ul>
-    {% endif %} {% for item in include.list %}
-    <li>
-      {{ item.content }} {% if item.nested %} {% include nestable_list.html
-      list=item.nested %} {% endif %}
-    </li>
-    {% endfor %}
-  </ul>
+{% else %}
+<ul>
+{% endif %}
+  {% for item in include.list %}
+  <li>
+    {{ item.content }}
+    {% if item.nested %}
+      {% include nestable_list.html list=item.nested %}
+    {% endif %}
+  </li>
+  {% endfor %}
 </ul>
