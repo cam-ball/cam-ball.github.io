@@ -3,6 +3,7 @@
 
 @import "external/jetbrains-mono";
 @import "external/ibm-plex-sans";
+@import "external/gruvbox";
 @import "variables";
 @import "themes";
 @import "mixins";
@@ -125,7 +126,7 @@ ul {
 
 .content {
   border: 7px var($--theme-purple) inset;
-  padding: 3rem;
+  padding: 1rem;
 }
 
 .primary-list {
@@ -178,6 +179,7 @@ ul {
     width: 60vh;
     min-width: 650px;
     min-height: 50vh;
+    padding: 3rem;
   }
 
   .nav li a {
