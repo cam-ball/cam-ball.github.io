@@ -1,6 +1,6 @@
 ---
 title: More Obsidian Posting
-tags: obsidian markdown notcode notnotcode
+tags: markdown notcode linux
 excerpt_separator: <!-- excerpt-end -->
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Knee-jerk React-ion
-tags: react pokemon development nuzlocke
+tags: react code
 ---
 
 Whenever someone mentions front-end development and my relationship to it, the hairs on the back of my neck stand up, nearby windows shatter, and the room temperature drops by 10 degrees.

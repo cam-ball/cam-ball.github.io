@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+{% include blog_header.html %}
+
+<article class="blog-column">
+  <div class="wrapper">
+    <div class="content">
+      <div class="header">
+        <h2>Tags</h2>
+      </div>
+
+      <div class="tags">
+        <ul>
+          {% for tag in site.tags %}
+            <li><a href="#{{tag[0]}}">#{{tag[0]}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+{% for tag in site.tags %}
+  {% assign tag_name = tag[0] %}
+  {% assign posts = tag[1] %}
+
+  <article class="blog-column">
+    <div class="wrapper">
+
+    <div class="post-metadata">
+      <span id="{{tag_name}}">#{{tag_name}}</span>
+    </div>
+
+      <div class="content">
+        <ul>
+        {% for post in posts %}
+        <li>
+          <a href="{{post.url}}">{{post.title}}</a>
+        </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </article>
+
+{% endfor %}

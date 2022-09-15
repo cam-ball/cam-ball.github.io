@@ -14,7 +14,18 @@
         <h2>{{ include.title }}</h2>
         {% endif %}
       </div>
+
       {{ include.content }}
+
+      <div class="tags">
+        <ul>
+          {% for tag in page.tags %}
+          <li>
+            <a href="/tags#{{tag}}">#{{tag}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   </div>
 </article>
