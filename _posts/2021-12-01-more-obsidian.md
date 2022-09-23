@@ -100,5 +100,5 @@ talking about it here.
 
 1. [How I Put My Mind In Version Control](https://medium.com/analytics-vidhya/how-i-put-my-mind-under-version-control-24caea37b8a5)
 2. [Obsidian Git plugin](https://github.com/denolehov/obsidian-git) (I don't use this, but it's
-   probably more straightforward than what I did do :sweat_smile:)
+   probably more straightforward than what I did do 😅)
 3. [Setting Up Git Syncing for Obsidian on Android](https://lucidhacker.substack.com/p/setting-up-git-syncing-for-obsidian)
