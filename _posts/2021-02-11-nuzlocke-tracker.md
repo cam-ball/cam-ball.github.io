@@ -36,7 +36,7 @@ The basic interface will include, per region:
 I've paused on this for now because of a snag I've hit with the API (or, possibly, with my understanding of how the API data is populated), but I'm hoping to outline the details of that
 and what steps (if any!) I'm taking to resolve it when I'm out of those specific woods.
 
-This is a really nice toy project because the MVP is so straighforward but there's a lot of room for improvement and I feel like there's potential to make a genuinely usable, dynamic tool.
+This is a really nice toy project because the MVP is so straightforward but there's a lot of room for improvement and I feel like there's potential to make a genuinely usable, dynamic tool.
 After completing the features above, I'd like to add:
 
 - JSON imports and exports for moving data between sessions
