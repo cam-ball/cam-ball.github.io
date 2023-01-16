@@ -8,7 +8,7 @@ basic:
       - content: React
   - content: Afraid of heights
 projects:
-  - content: Generated a bunch of <a href="https://camball.me/5e-character-generator/">D&D character ideas</a>.
+  - content: Generated a bunch of <a href="https://camball.me/5e-character-generator/">D&D characters</a> and <a href="https://camball.me/npc-generator">NPCs to help them on their way</a>.
   - content: Unleashed a viciously bright <a href="https://github.com/cam-ball/soft-diner">Atom theme</a> on the world (RIP Atom).
   - content: Gave some nice grandmas some <a href="https://github.com/cam-ball/Fresh-Air">fresh air</a>.
   - content: Made a <a href="https://github.com/cam-ball/cam-ball.github.io">website</a>, at least once.
