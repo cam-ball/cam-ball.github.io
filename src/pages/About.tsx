@@ -9,7 +9,16 @@ const About = () => {
       <CenterCard pageTitle="whoami">
         <ul className="list-[square] list-inside text-lg ml-2">
           <li>Boston, MA</li>
-          <li>{yearsExperience} years of professional experience</li>
+          <li>
+            {yearsExperience} years of professional experience (
+            <a
+              className="underline text-blue"
+              href="https://camball.me/resume/"
+            >
+              Résumé
+            </a>
+            )
+          </li>
           <li>
             Brought to you by the letter "R":{" "}
             <ul className="list-[square] list-inside ml-12">
