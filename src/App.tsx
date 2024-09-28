@@ -1,11 +1,12 @@
 // import { useState } from 'react'
+import About from "./pages/About";
 
 function App() {
   return (
-    <div className="h-full text-3xl font-bold underline bg-slate text-purple">
-      hello world
+    <div className="h-full bg-slate">
+      <About />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
