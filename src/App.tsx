@@ -1,10 +1,10 @@
 // import { useState } from 'react'
-import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <div className="h-full bg-slate">
-      <About />
+      <Contact />
     </div>
   );
 }

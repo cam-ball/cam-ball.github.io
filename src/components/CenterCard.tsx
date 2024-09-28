@@ -21,7 +21,7 @@ const CenterCard = ({
               Senior <span className="text-red">Ruby</span> Engineer
             </h2>
           </div>
-          <section>
+          <section className="text-lg">
             <h3 className="font-semibold text-2xl font-mono my-6">
               {formattedTitle}
             </h3>
