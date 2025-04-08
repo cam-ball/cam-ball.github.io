@@ -1,26 +1,35 @@
-// import type { ReactNode } from "react";
-import diceIcon from "../assets/dice-d20-solid.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faDiceD20,
+  faComments,
+  faPersonRays,
+  faLaptopCode,
+} from "@fortawesome/free-solid-svg-icons";
 
-const Nav = ({}: {}) => {
+const Nav = () => {
   const listStyles = "border w-20 h-20 p-4 bg-purple text-center";
 
   return (
     <ul className="w-full flex justify-between text-white px-6 text-4xl">
       <li className={listStyles}>
         <a href="/" className="w-full h-full">
-          A
+          <FontAwesomeIcon icon={faPersonRays} />
         </a>
       </li>
       <li className={listStyles}>
         <a href="/projects">
-          <img src={diceIcon} alt="dice icon" />
+          <FontAwesomeIcon icon={faLaptopCode} />
         </a>
       </li>
       <li className={listStyles}>
-        <a href="/hobbies">H</a>
+        <a href="/hobbies">
+          <FontAwesomeIcon icon={faDiceD20} />
+        </a>
       </li>
       <li className={listStyles}>
-        <a href="/contact">C</a>
+        <a href="/contact">
+          <FontAwesomeIcon icon={faComments} />
+        </a>
       </li>
     </ul>
   );
