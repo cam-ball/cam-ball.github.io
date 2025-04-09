@@ -11,7 +11,7 @@ import {
 const Nav = () => {
   const hoverStyles =
     "hover:text-red hover:bg-inherit hover:border-red hover:translate-y-2 transition ease-in-out";
-  const listStyles = `border border-2 border-purple w-20 h-20 bg-purple text-center ${hoverStyles}`;
+  const listStyles = `border border-2 border-purple w-16 h-16 bg-purple text-center ${hoverStyles}`;
   const linkStyles = "w-full h-full flex items-center justify-center";
 
   return (
