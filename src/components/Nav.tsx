@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router";
 import {
   faDiceD20,
   faComments,
@@ -15,24 +16,24 @@ const Nav = () => {
   return (
     <ul className="w-full flex justify-between text-white px-6 text-4xl">
       <li className={listStyles}>
-        <a href="/" className={linkStyles}>
+        <Link to="/" className={linkStyles}>
           <FontAwesomeIcon icon={faPersonRays} />
-        </a>
+        </Link>
       </li>
       <li className={listStyles}>
-        <a href="/projects" className={linkStyles}>
+        <Link to="/projects" className={linkStyles}>
           <FontAwesomeIcon icon={faLaptopCode} />
-        </a>
+        </Link>
       </li>
       <li className={listStyles}>
-        <a href="/hobbies" className={linkStyles}>
+        <Link to="/hobbies" className={linkStyles}>
           <FontAwesomeIcon icon={faDiceD20} />
-        </a>
+        </Link>
       </li>
       <li className={listStyles}>
-        <a href="/contact" className={linkStyles}>
+        <Link to="/contact" className={linkStyles}>
           <FontAwesomeIcon icon={faComments} />
-        </a>
+        </Link>
       </li>
     </ul>
   );
