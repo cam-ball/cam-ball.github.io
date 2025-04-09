@@ -13,8 +13,8 @@ const CenterCard = ({
     <>
       <title>{formattedTitle}</title>
       <div className="h-full flex flex-col items-center justify-center text-white">
-        <div className="max-w-[1200px] min-w-[650px] mx-12">
-          <div className="border-inset border-8 border-purple p-10">
+        <div className="max-w-[1200px] lg:min-w-[650px] mx-12">
+          <div className="min-h-[450px] border-inset border-8 border-purple p-10">
             <div className="border-0 border-b-2 border-purple border-solid p-3 mb-3">
               <h1 className="text-5xl text-red font-mono font-semibold mb-3">
                 Cameron Ball
