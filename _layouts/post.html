@@ -1,8 +1,0 @@
----
-layout: default
----
-
-{% include blog_header.html blog_link=true %}
-
-{% assign read_time = page.content | number_of_words | divided_by: 180 %}
-{% include postcard.html content=content title=page.title date=page.date read_time=read_time %}
