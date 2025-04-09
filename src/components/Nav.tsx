@@ -5,6 +5,7 @@ import {
   faComments,
   faPersonRays,
   faLaptopCode,
+  faNewspaper,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = () => {
@@ -19,6 +20,15 @@ const Nav = () => {
         <Link to="/" className={linkStyles}>
           <FontAwesomeIcon icon={faPersonRays} />
         </Link>
+      </li>
+      <li className={listStyles}>
+        <a
+          target="_blank"
+          href="https://medium.com/@im.cameron"
+          className={linkStyles}
+        >
+          <FontAwesomeIcon icon={faNewspaper} />
+        </a>
       </li>
       <li className={listStyles}>
         <Link to="/projects" className={linkStyles}>
