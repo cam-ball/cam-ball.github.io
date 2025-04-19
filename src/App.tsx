@@ -2,9 +2,9 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Hobbies from "./pages/Hobbies";
 import Contact from "./pages/Contact";
-import { createBrowserRouter, RouterProvider } from "react-router";
+import { createHashRouter, RouterProvider } from "react-router";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <About />,
