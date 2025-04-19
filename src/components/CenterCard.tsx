@@ -19,11 +19,11 @@ const CenterCard = ({
   pageTitle: string;
   children: ReactNode;
 }) => {
-  const formattedTitle = `$ ${pageTitle}`;
+  const formattedTitle = `> ${pageTitle}`;
 
   return (
     <>
-      <title>{formattedTitle}</title>
+      <title>{pageTitle} | camball</title>
       <div className="h-full flex flex-col items-center justify-center text-white">
         <div className="max-w-[1200px] mx-12">
           <div className="min-h-[450px] lg:min-h-[50vh] lg:w-[40vw] border-inset border-8 border-purple p-10">
