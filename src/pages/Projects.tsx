@@ -51,14 +51,6 @@ const Projects = () => {
             />
             .
           </li>
-          <li className="list-['\1F480']">
-            Unleashed a viciously bright{" "}
-            <Link
-              label="Atom theme"
-              href="https://github.com/cam-ball/soft-diner"
-            />{" "}
-            on the world (RIP to Atom).
-          </li>
         </ul>
       </CenterCard>
     </div>
